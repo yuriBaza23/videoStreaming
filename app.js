@@ -11,5 +11,11 @@ app.get('/', (req, res) => {
   res.redirect('index.html')
 })
 
+io.on('connection', (socket) => {
+  socket.on('stream', (image) => {
+    
+  })
+})
+
 app.use(express.static(__dirname + "/public"));
 app.listen(port, () => console.log('Started'));
