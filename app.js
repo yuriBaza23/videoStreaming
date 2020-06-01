@@ -18,4 +18,4 @@ io.on('connection', (socket) => {
 })
 
 app.use(express.static(__dirname + "/public"));
-app.listen(port, () => console.log('Started'));
+http.listen(port, () => console.log('Started'));
