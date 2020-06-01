@@ -4,6 +4,9 @@
   "dependencies": {
     "socket.io": "*",
     "express": "*",
-    "log": "*"
+    "nodemon": "*"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
   }
 }
