@@ -8,5 +8,6 @@
   },
   "scripts": {
     "dev": "nodemon app.js"
-  }
+  },
+  "license": "MIT"
 }
